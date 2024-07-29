@@ -11,5 +11,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div>Current Count: {{ count }}</div>
+  <div>
+    Current Count: {{ count }}
+  </div>
 </template>

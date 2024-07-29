@@ -1,4 +1,5 @@
-/** @type {import('tailwindcss').Config} */
+import type { Config } from 'tailwindcss'
+
 export default {
   content: [
     './pages/**/*.vue',
@@ -8,4 +9,4 @@ export default {
     './widgets/**/*.vue',
     './app.vue',
   ],
-}
+} satisfies Config
